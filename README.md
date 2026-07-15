@@ -2,6 +2,11 @@
 
 一个面向个人创作者、内容团队与企业的开源个人站：展示真实项目与工作流能力，并提供可交互的免费工作流体检。
 
+## 在线预览
+
+- 站点：[https://jianzhou-ai-site.pages.dev](https://jianzhou-ai-site.pages.dev)
+- GitHub：[tangchengjiao/jianzhou-ai-site](https://github.com/tangchengjiao/jianzhou-ai-site)
+
 ## 已实现
 
 - 深蓝“工作流实验室”响应式首页
