@@ -1,7 +1,8 @@
 # Design QA
 
 - Source visual truth: [`design/selected-workflow-lab-reference.png`](./design/selected-workflow-lab-reference.png)
-- Implementation URL: `http://127.0.0.1:4173/`
+- Production URL: [https://jianzhou-ai-site.pages.dev](https://jianzhou-ai-site.pages.dev)
+- Local verification URL: `http://127.0.0.1:4173/`
 - Desktop, mobile, interaction, and combined-comparison captures are retained in the maintainer's external QA artifact directory rather than committed with the production site.
 - Comparison viewport: desktop semantic viewport 1440 × 1000 (the supplied 807 px reference is a downsampled desktop composition); mobile 390 × 844
 - State: homepage default, desktop anchor navigation, mobile menu, keyboard focus, three-step workflow diagnosis, privacy notice, consented lead submission preview
@@ -35,8 +36,9 @@ No actionable P0, P1, or P2 visual findings remain after the final comparison pa
 - Keyboard focus: first target is `见舟AI首页`; the 3 px cyan focus ring is visible.
 - Diagnostic flow: dialog opened, problem selected, deterministic recommendation generated, result copied/advanced, contact fields completed, consent checked, and preview submission state displayed.
 - Privacy notice: opened from inside the diagnostic flow without closing the diagnosis; desktop and 390 px mobile dialogs remained readable and free of horizontal overflow.
-- Clean initial load: zero console errors, page errors, failed requests, or HTTP responses at/above 400.
+- Clean initial load: zero console errors, page errors, failed requests, or HTTP responses at/above 400 on both local and production URLs.
 - Local Vite lead submission produces the expected `/api/contact` 404 and is deliberately converted by the UI into a preview message. The same endpoint was separately tested through Wrangler Pages with missing-secret, mocked-webhook, and success responses.
+- Production submission currently reaches the deployed Pages Function and returns the expected handled `503` until the maintainer adds the `FEISHU_WEBHOOK_URL` secret.
 - Hardened contact endpoint: 10 automated tests passed for media type, same-origin checks, null/invalid/oversized payloads, submission timing, honeypot, required fields, missing configuration, Feishu business failure, and Feishu success.
 
 ## Remaining P3 differences
