@@ -1,0 +1,13 @@
+node_modules/
+.npm-cache/
+dist/
+.dev.vars
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.wrangler/
+playwright-report/
+test-results/
