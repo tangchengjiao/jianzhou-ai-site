@@ -80,3 +80,19 @@ docs/                   零到一手册、发布门禁、故障库与交接状�
 ## 维护者文档
 
 后续 Codex 或维护者开始任何规划、修改、测试、部署前，先读取 [docs/README.md](./docs/README.md)。其中包含完整零到一流程、发布检查表、真实踩坑与防错规则、当前生产状态和 E 盘工具路径。
+
+<!-- JIANZHOU-PUBLIC-INFO:START -->
+## 企业服务与联系
+
+**华链 AI** · 企业 AI 业务落地与内生能力建设
+
+培训与 FDE 培养 · 场景验证 · 智能体定制 · 企业实施 · 产品应用支持
+
+[华链 AI 官网](https://hualian-ai.fondmule128.chatgpt.site) · [企业服务](https://hualian-ai.fondmule128.chatgpt.site/services/) · [服务参考价](https://hualian-ai.fondmule128.chatgpt.site/pricing/) · [企业宣传册](https://hualian-ai.fondmule128.chatgpt.site/downloads/company-brochure.pdf) · [合作咨询](https://hualian-ai.fondmule128.chatgpt.site/contact/)
+
+咨询联系人：**见舟** · 微信：**`DST10209`**
+
+<img src="https://raw.githubusercontent.com/tangchengjiao/hualian-ai-brand-center/main/public/assets/contact/wechat-qr.png" alt="见舟微信二维码" width="200">
+
+抖音：`74683161410` · 视频号：见舟AI赋能
+<!-- JIANZHOU-PUBLIC-INFO:END -->
