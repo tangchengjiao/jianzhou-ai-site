@@ -81,6 +81,15 @@ docs/                   零到一手册、发布门禁、故障库与交接状�
 
 后续 Codex 或维护者开始任何规划、修改、测试、部署前，先读取 [docs/README.md](./docs/README.md)。其中包含完整零到一流程、发布检查表、真实踩坑与防错规则、当前生产状态和 E 盘工具路径。
 
+<!-- JIANZHOU-CONTACT-QR:START -->
+## 联系二维码
+
+| 微信 | 抖音 | 视频号 | 公众号 |
+| :---: | :---: | :---: | :---: |
+| <img src="https://hualian-ai.pages.dev/assets/contact/wechat-qr.png" alt="见舟微信二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/douyin-qr.png" alt="见舟抖音二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/channels-qr.png" alt="见舟AI赋能视频号二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/official-account-qr.jpg" alt="公众号二维码" width="160"> |
+| `DST10209` | `74683161410` | 见舟AI赋能 | 扫码关注 |
+<!-- JIANZHOU-CONTACT-QR:END -->
+
 <!-- JIANZHOU-PUBLIC-INFO:START -->
 ## 企业服务与联系
 
@@ -92,8 +101,5 @@ docs/                   零到一手册、发布门禁、故障库与交接状�
 
 咨询联系人：**见舟** · 微信：**`DST10209`**
 
-| 微信 | 抖音 | 视频号 | 公众号 |
-| :---: | :---: | :---: | :---: |
-| <img src="https://hualian-ai.pages.dev/assets/contact/wechat-qr.png" alt="见舟微信二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/douyin-qr.png" alt="见舟抖音二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/channels-qr.png" alt="见舟AI赋能视频号二维码" width="160"> | <img src="https://hualian-ai.pages.dev/assets/contact/official-account-qr.jpg" alt="公众号二维码" width="160"> |
-| `DST10209` | `74683161410` | 见舟AI赋能 | 扫码关注 |
+<img src="https://hualian-ai.pages.dev/assets/contact/wechat-qr.png" alt="见舟微信二维码" width="200">
 <!-- JIANZHOU-PUBLIC-INFO:END -->
