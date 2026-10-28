@@ -84,4 +84,8 @@ pnpm 11 不再从 `.npmrc` 读取普通 store 配置。项目采用 `pnpm-worksp
 
 本轮内容检查、review / production 两种构建与 11 项测试通过，依赖审查无已知漏洞；正式产物 31 页的域名、索引、素材与已定稿内容校验通过。只发布 dist-release/，不包含旧根工程的 functions。咨询走真实微信入口，练习与提纲只在浏览器中处理，不声称有远程表单收集或支付。
 
-发布与生产验收状态：执行中。完成后补充实际部署和验收结果；不得将项目已创建等同于已上线。
+发布与生产验收状态：已完成，GO。正式地址 https://jianzhou-personal-site.pages.dev，部署 ID f483b766-fd2b-47f1-a1ae-0332090e593f。生产 Chrome 回归通过：31 页、93 个页面/视口状态、40 项检查，31 页关闭脚本仍可阅读；无脚本与非预期资源错误。桌面和手机截图已人工查看。正式微信入口、文章、四款产品素材、导航、搜索、进度与联系提纲通过。robots、sitemap、RSS 返回 200，RSS 含 12 条正式内容；未知路径真实 404。
+
+GitHub CI 已通过：https://github.com/tangchengjiao/jianzhou-ai-site/actions/runs/40616746135 。仓库根与新版 README 两个联系区域均核对：四渠道区 4 张二维码，企业区仅微信 1 张，全部可加载。GitHub 项目主页网址已更新，默认分支 main 与公开属性不变。最后的发布文档提交不改变当前部署页面。
+
+完整发布记录见 RELEASE_20261028.md。公网截图与数据：E:/CodexQA/jianzhou-production-20261028/。本次是纯静态内容与微信咨询入口上线，不包含远程线索收集、支付或模型 API。仍未做真实手机逐台验收。
