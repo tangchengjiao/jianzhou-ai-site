@@ -1,5 +1,9 @@
 # Mandatory Personal-Site Runbook
 
+## Active release · 2026-10-28
+
+The owner approved and authorized the new light personal site. Current implementation is `personal-site/`; read its AGENTS.md and docs/HANDOFF.md first. Deploy only `personal-site/dist-release/` to the new Pages project `jianzhou-personal-site`. Preserve main and the legacy root project. Older palette, form, and backend instructions below apply only to the archived root application, not to this approved new site. The new site uses direct WeChat consultation and local-only exercises; do not claim remote lead submission or restore the excluded product.
+
 Before planning, changing, testing, deploying, or maintaining this personal site, read docs/README.md completely and follow its task routing.
 
 - For planning, architecture, implementation, or major changes, read docs/PERSONAL_SITE_ZERO_TO_ONE_PLAYBOOK.md.

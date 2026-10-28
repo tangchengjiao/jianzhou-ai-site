@@ -1,0 +1,32 @@
+name: Personal site release
+on:
+  push:
+    branches: ['release/personal-site-*']
+    paths: ['personal-site/**', '.github/workflows/personal-site.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: personal-site
+    env:
+      SKIP_REVIEW_EXPORT: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: personal-site/package.json
+          run_install: false
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run check
+      - run: pnpm run build
+      - run: pnpm test
+      - run: pnpm run build:release --site-url https://jianzhou-personal-site.pages.dev
+      - run: node scripts/verify-release.mjs
+      - run: pnpm audit --audit-level=high

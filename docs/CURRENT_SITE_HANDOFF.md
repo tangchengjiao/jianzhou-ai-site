@@ -1,5 +1,9 @@
 # 见舟AI个人站当前交接状态
 
+## 新版发布说明 · 2026-10-28
+
+当前新版在独立分支 `release/personal-site-20261028` 的 `personal-site/`，正式入口 https://jianzhou-personal-site.pages.dev 。实际部署与生产验收看 `../personal-site/docs/HANDOFF.md`（从本文件实际相对路径为 `../personal-site`）。原 main 与根工程不改写，下文为旧版历史记录。新版没有远程咨询表单，不再以旧 FEISHU_WEBHOOK_URL 配置作为上线前提。
+
 最后只读核验：2026-07-15 17:03（Asia/Shanghai）
 
 注意：本文件只记录状态和路径，绝不保存 token、Webhook 或设备码。

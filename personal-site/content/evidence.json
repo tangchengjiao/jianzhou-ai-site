@@ -1,0 +1,93 @@
+{
+  "zhihui": {
+    "label": "产品演示实景 · 2026.09",
+    "cover": "zhihui-workshop",
+    "title": "让岗位职责与业务流程接起来。",
+    "intro": "在智汇工坊了解员工职责，再通过业务编排看工作怎样交接。这里采用智汇中枢已有演示资料，以门店排班补货的流程界面为例，说明数字员工、工具与人工确认的关系。",
+    "items": [
+      {"id":"zhihui-workshop","src":"assets/zhihui-workshop.png","title":"先看员工的职责与能力","description":"智汇工坊集中呈现岗位职责、能力和使用入口，帮助使用者判断该由谁参与一项工作。","caption":"智汇中枢 · 智汇工坊 · 既有产品演示资料","width":1440,"height":1000},
+      {"id":"zhihui-workflow","src":"assets/zhihui-workflow.png","title":"让下一步由谁处理清晰可见","description":"门店排班补货示例中，业务步骤、协同员工和负责人确认放在同一条工作链上，当前节点与交接事项可以一起查看。","caption":"智汇中枢 · 业务编排示例 · 2026 年 9 月资料","width":1440,"height":1000}
+    ]
+  },
+  "tanliu": {
+    "label": "手册功能示意",
+    "cover": "tanliu-profile",
+    "title": "先说清业务，再看哪些需求值得跟进。",
+    "intro": "这两张图来自探流的介绍手册，用示例数据说明工作方式：业务档案提供判断背景，线索中心保留需求、来源与跟进状态。它们是功能示意，不是真实客户成交或本次运行结果。",
+    "items": [
+      {"id":"tanliu-profile","src":"assets/tanliu-profile.png","title":"把产品、客群和服务范围说清楚","description":"业务档案帮助明确你提供什么、服务谁，以及哪些条件需要排除，让后续需求判断有共同依据。","caption":"探流 · 业务档案功能示意 · 来自产品手册","width":1180,"height":420},
+      {"id":"tanliu-leads","src":"assets/tanliu-leads.png","title":"让每一条需求带着来源与进展","description":"线索中心示意将客户咨询、来源作品、判断与跟进状态放在一起，让发现之后的处理可以继续接下去。","caption":"探流 · 线索中心功能示意 · 示例客户与示例数据","width":1180,"height":479}
+    ]
+  },
+  "guanbiao": {
+    "label": "真实演示 · 2026.10.27",
+    "cover": "guanbiao-result",
+    "title": "从一份材料，到一份可编辑的草稿。",
+    "intro": "用这次演示看看：一份材料怎样接到几个选题角度，再变成可编辑的稿件。材料拆解、三个角度和正文来自同一次“帮我起稿”，结果仍保留为演示草稿。",
+    "excerpt": "你是不是也这样：看到好作品先收藏，过几天真要写，打开收藏夹却想不起当时想学什么。问题不在收藏少，而在只留下了作品，没留下判断。",
+    "items": [
+      {
+        "id": "guanbiao-result",
+        "src": "assets/guanbiao-demo-result.png",
+        "title": "材料拆解与选题，进入同一份草稿",
+        "description": "系统实际生成了核心问题、关键判断、三个选题角度，并接着写出口播正文。",
+        "caption": "观标实际运行界面 · 个人站演示草稿 · 未发布",
+        "width": 1440,
+        "height": 820
+      },
+      {
+        "id": "guanbiao-input",
+        "src": "assets/guanbiao-demo-input.png",
+        "title": "先交代材料、对象和这次要做的事",
+        "description": "输入的是为本次演示撰写的材料与创作要求。明确受众、语气、输出结构，以及只生成文字、不发布的要求。",
+        "caption": "演示输入 · 自有说明材料，不是真实客户案例",
+        "width": 1440,
+        "height": 820
+      },
+      {
+        "id": "guanbiao-body",
+        "src": "assets/guanbiao-demo-body.png",
+        "title": "留下可以继续审阅和修改的正文",
+        "description": "直接查看真实生成的正文片段，再回到稿件里继续审阅与修改。这里是同一份演示生成稿，尚未发布。",
+        "caption": "同一份生成稿的正文片段 · 2026.10.27",
+        "width": 1170,
+        "height": 900
+      }
+    ]
+  },
+  "lingshi": {
+    "label": "产品实景资料 · 2026.10.13",
+    "cover": "lingshi-map",
+    "title": "从经营方向，到团队的内容安排。",
+    "intro": "经营地图明确阶段，项目资料保留工作依据，运营计划再把内容任务排进去。以下为 2026 年 10 月产品演示资料中的界面实景，展示领势怎样组织这条链路。",
+    "items": [
+      {
+        "id": "lingshi-map",
+        "src": "assets/lingshi-map.png",
+        "title": "在经营地图里看清当前阶段",
+        "description": "把商业设计、账号布局、市场判断、经营执行和数据复盘放在同一个项目视角下。",
+        "caption": "领势操盘中枢 · 既有产品演示实景 · 2026.10.13",
+        "width": 2400,
+        "height": 1500
+      },
+      {
+        "id": "lingshi-materials",
+        "src": "assets/lingshi-materials.png",
+        "title": "让资料与访谈成为后续工作的依据",
+        "description": "项目资料总览将来源、访谈提炼、主体档案与语言语料放在一起，提示资料冲突与缺口。",
+        "caption": "领势项目资料 · 同一版本、同一演示资料来源",
+        "width": 2400,
+        "height": 1500
+      },
+      {
+        "id": "lingshi-plan",
+        "src": "assets/lingshi-plan.png",
+        "title": "把内容任务放回团队的运营计划",
+        "description": "任务看板保留制作阶段，日历连接工作安排，让下一步做什么、怎样接续都有清楚的位置。",
+        "caption": "领势运营计划 · 既有产品演示实景 · 2026.10.13",
+        "width": 2400,
+        "height": 1500
+      }
+    ]
+  }
+}

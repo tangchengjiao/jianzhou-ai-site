@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="见舟的个人网站：AI 应用、工作流实践、文章与实战学习。">
+  <meta name="color-scheme" content="light">
+  <title>见舟 — 把 AI 用进真实工作</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/site.css">
+  <script defer src="/site-data.js"></script>
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header id="header" class="header"></header>
+  <main id="main" tabindex="-1"></main>
+  <footer id="footer"></footer>
+  <dialog id="search-dialog" aria-labelledby="search-title">
+    <div class="dialog-top"><h2 id="search-title">找一篇内容，或一个产品。</h2><button class="icon-button" data-close-search aria-label="关闭搜索">×</button></div>
+    <label class="sr-only" for="site-search">搜索内容</label><input id="site-search" type="search" placeholder="试试：Skill、观标、内容工作流" autocomplete="off">
+    <div id="search-results"></div>
+  </dialog>
+  <dialog id="media-dialog" class="media-dialog" aria-labelledby="media-title"><div class="dialog-top"><h2 id="media-title">查看素材</h2><button class="icon-button" data-close-media aria-label="关闭图片">×</button></div><img id="media-image" alt=""><p id="media-caption"></p></dialog>
+  <dialog id="learning-dialog" class="learning-dialog" aria-labelledby="learning-title"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

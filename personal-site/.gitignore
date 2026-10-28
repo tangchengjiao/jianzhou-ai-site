@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-release/
+.local-reports/
+.wrangler/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store

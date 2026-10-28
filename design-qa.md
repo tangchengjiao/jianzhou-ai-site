@@ -47,3 +47,6 @@ No actionable P0, P1, or P2 visual findings remain after the final comparison pa
 - The real founder portrait and proof screenshots differ from the stylized mock assets by design.
 
 final result: passed
+# 新版验收入口 · 2026-10-28
+
+新版源码在 `personal-site/`，使用已认可的全浅色阅读风格。完整本地验收覆盖 31 页、5 种视口、16 项素材来源对应、8 篇教程和微信咨询。生产验收与交接记录见 `personal-site/docs/HANDOFF.md`。旧版证据保留，不作为新版视觉真值。

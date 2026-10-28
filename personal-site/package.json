@@ -1,0 +1,22 @@
+{
+  "name": "jianzhou-personal-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "见舟个人站：基于已认可 HTML 原型的内容驱动静态站",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:release": "node scripts/build.mjs --production",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check-content.mjs"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "devDependencies": {
+    "linkedom": "^0.18.14",
+    "marked": "^18.1.2"
+  }
+}

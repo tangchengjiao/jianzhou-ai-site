@@ -1,0 +1,32 @@
+[
+  {
+    "id": "media-workbench",
+    "name": "见舟自媒体运营工作台",
+    "type": "公开项目",
+    "summary": "本地优先的 AI 内容创作、视觉制作、渠道运营与数据复盘工具。",
+    "purpose": "希望在自己的工作环境里组织内容制作和运营记录。",
+    "url": "https://github.com/tangchengjiao/jianzhou-media-workbench",
+    "related": "tutorial-workflow",
+    "note": "当前仅核对公开仓库说明；能力、安装与使用要求以仓库当前文档为准。不与领势、观标自动合并。"
+  },
+  {
+    "id": "canvas-recorder",
+    "name": "见舟画布录制",
+    "type": "创作者工具 · Beta",
+    "summary": "本地白板与文档讲解、提词、自动运镜、摄像头及麦克风录制工具。",
+    "purpose": "边讲解、边组织资料，并录下自己的知识内容。",
+    "url": "https://github.com/tangchengjiao/jianzhou-canvas-recorder-build",
+    "related": "tutorial-workflow",
+    "note": "仓库说明提供 Windows / macOS Beta 安装包的 Releases 入口；本次未安装或运行发行物，不固定历史版本号。"
+  },
+  {
+    "id": "layered-psd",
+    "name": "图片转分层 PSD",
+    "type": "文档型 Skill",
+    "summary": "围绕语义拆分、遮挡补全、原生文字、背景重建与 PSD 检查，组织图片转分层文档的工作要求。",
+    "purpose": "将完整图片转向更方便继续编辑的图层文档。",
+    "url": "https://github.com/tangchengjiao/image-to-layered-psd",
+    "related": "first-skill",
+    "note": "这是工作流规范与接入指南型 Skill，不作为一键完成任意图片分层的在线产品宣传。使用条件以项目文档为准。"
+  }
+]
