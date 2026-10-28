@@ -2,6 +2,8 @@
 
 ## 新版发布说明 · 2026-10-28
 
+已上线并完成生产验收。正式地址 https://jianzhou-personal-site.pages.dev；生产部署 f483b766-fd2b-47f1-a1ae-0332090e593f。31 页、93 个页面/视口状态、40 项正式站检查通过，GitHub 新版 CI 通过。旧 main 与旧工作区保留。本次仅静态内容与微信咨询入口，不含远程表单、支付或模型 API。
+
 当前新版在独立分支 `release/personal-site-20261028` 的 `personal-site/`，正式入口 https://jianzhou-personal-site.pages.dev 。实际部署与生产验收看 `../personal-site/docs/HANDOFF.md`（从本文件实际相对路径为 `../personal-site`）。原 main 与根工程不改写，下文为旧版历史记录。新版没有远程咨询表单，不再以旧 FEISHU_WEBHOOK_URL 配置作为上线前提。
 
 最后只读核验：2026-07-15 17:03（Asia/Shanghai）

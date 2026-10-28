@@ -49,4 +49,6 @@ No actionable P0, P1, or P2 visual findings remain after the final comparison pa
 final result: passed
 # 新版验收入口 · 2026-10-28
 
+正式站已上线：https://jianzhou-personal-site.pages.dev 。生产 Chrome 验收 31 页、93 个页面/视口状态、40 项检查通过；31 页关闭 JavaScript 仍有正文，非预期脚本与资源错误为零。已查看正式首页桌面/手机与产品目录截图，保持全浅色、人像融合与各产品独立素材。证据：E:/CodexQA/jianzhou-production-20261028/。真实设备与微信内置浏览器未逐台实测。
+
 新版源码在 `personal-site/`，使用已认可的全浅色阅读风格。完整本地验收覆盖 31 页、5 种视口、16 项素材来源对应、8 篇教程和微信咨询。生产验收与交接记录见 `personal-site/docs/HANDOFF.md`。旧版证据保留，不作为新版视觉真值。
