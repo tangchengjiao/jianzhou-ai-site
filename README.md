@@ -62,7 +62,9 @@ npm run build
 
 ## 开源边界
 
-- 程序代码：MIT License
+- 自有程序代码采用 [Apache License 2.0](./LICENSE)，允许二次开发、分发和商用。
+- 分发软件或衍生作品时，请随附许可证、保留适用的版权和署名声明，并在修改过的文件中注明变更。
+- 此前以 MIT 发布的版本沿用随版本附带的条款。
 - 品牌、人物、案例与内容素材：保留权利，见 [CONTENT_LICENSE.md](./CONTENT_LICENSE.md)
 - 素材来源与展示边界：见 [ASSET_SOURCES.md](./ASSET_SOURCES.md)
 - 主要第三方依赖许可：见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)
